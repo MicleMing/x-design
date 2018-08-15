@@ -1,0 +1,66 @@
+{
+  "name": "x-design",
+  "version": "1.0.0",
+  "description": "components design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start-storybook -p 9001",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/~lanmingming/x-design.git"
+  },
+  "keywords": [
+    "storybook",
+    "design",
+    "components"
+  ],
+  "author": "lanmingming",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-centered": "^3.4.5",
+    "@storybook/addon-info": "^3.4.5",
+    "@storybook/addon-knobs": "^3.4.5",
+    "@storybook/addon-links": "^3.4.0",
+    "@storybook/react": "^3.4.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "css-loader": "^0.28.11",
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-import-resolver-webpack": "^0.8.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^6.9.0",
+    "file-loader": "^1.1.11",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "moment": "^2.22.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "story2sketch": {
+    "stories": "all",
+    "output": "dist/great-ui.asketch.json",
+    "url": "http://localhost:9001/iframe.html"
+  }
+}
